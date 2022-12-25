@@ -1,4 +1,4 @@
-# co08f434f96ab07871acb5ab3
+# Scrimba practice
 
 Quick start:
 
