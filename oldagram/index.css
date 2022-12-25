@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo{
+    width: 120px;
+}
+
+h1{
+    font-size:16px;
+    margin-bottom:0px;
+}
+
+h2{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.comment h2{
+    margin-top:12px;
+}
+
+.normal-text{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/************** layout ******************/
+
+/* header */
+
+.post-section{
+    border-top:2px solid #cccdce; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    
+}
+
+/* section */
+.post-info-container{
+    display: flex;
+    text-align: center;
+    padding: 8px 10px;
+    gap:15px;
+}
+.post-info{
+    text-align: left;
+}
+
+.avatar-container{
+   display: flex;
+   align-items: center;
+}
+
+/* img section */
+/* .post-img-container{
+    display: flex;
+    justify-content: center;
+} */
+
+.post-img{
+    margin-top: 0px;
+    width: 375px;
+}
+
+.img-container{
+    padding: 10px;
+}
+.img-container img {
+    width: 25px;
+}
+
+.make-interaction h2{
+    margin:0 0 0 12px
+}
+
+/* comment section */
+
+.comment{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 0px;
+}
+
+.comment .normal-text{
+    font-size: 16px;
+}
